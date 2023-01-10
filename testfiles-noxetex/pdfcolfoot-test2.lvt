@@ -1,0 +1,10 @@
+\documentclass{article}
+\input{regression-test}
+\usepackage{pdfcolfoot}
+
+\begin{document}
+\START \showoutput
+ abc\footnote{xx\color{red} a} 
+\newpage
+\OMIT
+\end{document}
