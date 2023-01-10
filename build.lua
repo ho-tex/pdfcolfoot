@@ -3,6 +3,14 @@
 
 module = "pdfcolfoot"
 
+installfiles = {
+'*.sty',
+}
+
+sourcefiles = {"*.dtx"}
+
+unpackfiles = {'pdfcolfoot.dtx'}
+
 textfiles = {"README.md"}
 
 checkconfigs = {"config-noxetex"}
